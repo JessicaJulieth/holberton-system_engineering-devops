@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la gread -d | wc
+find . type d| wc -l
