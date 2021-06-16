@@ -1,2 +1,2 @@
 #!/bin/bash
-find . | tr 'Ac' 'Ze'
+find . | tr 'A' 'Z' | tr 'c' 'e'
