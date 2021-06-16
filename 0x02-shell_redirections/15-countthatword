@@ -1,2 +1,2 @@
 #!/bin/bash
-wc /etc/passwd
+cat /etc/passwd | wc -l
