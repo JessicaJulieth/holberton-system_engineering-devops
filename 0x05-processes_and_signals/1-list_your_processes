@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Print list the current process
 
-ps aru
+ps -eux -f
