@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Print infinity and beyond indefinitely
 
-fuser -k 4-to_infinity_and_beyond
+kill 28731 21340
