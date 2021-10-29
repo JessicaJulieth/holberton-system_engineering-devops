@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Print infinity and beyond indefinitely
-
-kill 28731 21340
+# Stopped our 4-to_infinity_and_beyond process using ctrl+c in the previous task
+x="$(pgrep -f 4-to_infinity_and_beyond)"
+kill "$x"
