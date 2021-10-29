@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Print lines containing the bash word
 
-top -hv| -c
+pgrep -l bash
