@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script print the content of the file /etc/passwd
-declare -i count=0
+declare -i
 
 while read -r passwd
 do
