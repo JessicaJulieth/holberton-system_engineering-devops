@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 # Client configuration file
 
+Include /etc/ssh/ssh_config.d/*.conf
+
 Host *
+    Host 35.227.60.59
+    HostName 35.227.60.59
+    User ubuntu
     PasswordAuthentication no
     IdentityFile ~/.ssh/school
     SendEnv LANG LC_*
