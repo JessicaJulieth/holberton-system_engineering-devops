@@ -19,8 +19,8 @@
 Include /etc/ssh/ssh_config.d/*.conf
 
 Host *
-Host 35.231.150.24
-HostName 35.231.150.24
+Host 35.237.144.234
+HostName 35.237.144.234
 User ubuntu
 #   ForwardAgent no
 #   ForwardX11 no
