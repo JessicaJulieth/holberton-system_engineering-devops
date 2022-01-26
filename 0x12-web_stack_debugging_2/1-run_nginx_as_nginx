@@ -3,6 +3,7 @@
 # nginx must be listening on all active IPs on port 8080
 # Write a Bash script that configures the container to fit the above requirements
 
+pkill -f apache2
 apt-get update
 sudo apt-get -y upgrade
 apt-get install -y nginx
